@@ -1,0 +1,103 @@
+@charset "UTF-8";
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(../material/img/kokoro.jpeg) ;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+
+}
+
+.hero h1 {
+    position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+     color: darkslategrey;
+     font-size: 50px;
+}
+
+.contact {
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    background-color: gray;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .contact {
+
+    }       
+}    
+
+.contact h2 {
+    font-size: 40px;
+    padding: 50px;
+    margin-top: 40px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .contact h2 {
+        margin-top: 60px;
+    }  
+}
+
+.contact p {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .contact p {
+        margin-top: 60px;
+    }
+}
+
+.contact a:hover {
+    color: white;
+}
+
+.contact dl {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    margin-top: 30px;
+}
+
+.contact dt {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+a:hover {
+    color: white;
+}
+
+.sns {
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+}
+
+.sns img {
+    width: 40px;
+    transform: 0.5s;
+}
+
+.sns a:hover {
+    opacity: 0.3;
+}
+
+
+@media screen and (max-width: 768px) {
+       
+}

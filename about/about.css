@@ -1,0 +1,152 @@
+@charset "UTF-8";
+.hero {
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url(../material/img/my.jpg) ;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+
+}
+
+.nav a {
+    color: white;
+    transition: 0.5s;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: navy;
+    font-size: 50px;
+}
+
+.about {
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    background-color: gray;
+}
+
+@media screen and (max-width: 768px) {
+    .about, .history {
+        padding: 20px;
+    }
+}
+
+
+.about h2 {
+    font-size: 40px;
+    padding: 30px;
+    color: white;
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+    .about h2 {
+        font-size: 30px;
+    }
+}
+
+
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+.about-content img {
+    width: 200px;
+    padding: 30px;
+}
+
+.about p {
+    font-size: 16px;
+    padding: 30px;
+    line-height: 2;
+}
+
+.about span {
+    font-size: 24px;
+    line-height: 5;
+    font-weight: bold;
+}
+
+.history {
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .history {
+        padding: 50px 10px;
+        
+    }
+}
+
+
+.history h2 {
+    font-size: 40px;
+    padding: 0 0 25px 20px;
+    font-style: italic; 
+    color: orange;  
+}
+
+@media screen and (max-width: 768px) {
+    .history h2 {
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+}
+
+
+.his-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 130px;
+}
+
+@media screen and (max-width: 768px) {
+    .his-list {
+        padding: 0 20px;
+    }
+}
+
+
+.his-list li {
+    display: flex;
+    gap: 30px;
+}
+
+.his-list span {
+    width: 60px;
+    flex-shrink: 0;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.his-list p {
+    margin: 0;
+}
+
+
