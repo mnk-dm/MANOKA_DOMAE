@@ -81,11 +81,11 @@
     margin-top: 10px;
 }
 
-a {
+.works a {
     transition: 0.3s;
 }
 
-a:hover {
+.worcs a:hover {
     opacity: 0.5;
     color: white;
 }
