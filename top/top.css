@@ -30,6 +30,12 @@
     border-top: 2px solid white;
 }
 
+@media screen and (max-width: 768px) {
+    .about-content {
+        height: auto;
+    }     
+}
+
 .about h2 {
     font-size: 40px;
     padding: 30px;
