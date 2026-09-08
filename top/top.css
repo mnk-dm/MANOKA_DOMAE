@@ -30,6 +30,12 @@
     border-top: 2px solid white;
 }
 
+@media screen and (max-width: 768px) {
+    .about {
+        height: auto;
+    }     
+}
+
 .about h2 {
     font-size: 40px;
     padding: 30px;
@@ -55,6 +61,12 @@
     width: 200px;
     padding: 30px;
     margin-left: -80px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-content img {
+        height: 30px;
+    }     
 }
 
 .about p {
